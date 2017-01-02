@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "173597830497",
+    "firebase_url": "https://petvet2-8d8c9.firebaseio.com",
+    "project_id": "petvet2-8d8c9",
+    "storage_bucket": "petvet2-8d8c9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:173597830497:android:0b65dc1324513cb6",
+        "android_client_info": {
+          "package_name": "com.software.alejo.petvet2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "173597830497-hh9bf1tal4kuf3f2mdtnbhkv09p0l99f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.software.alejo.petvet2",
+            "certificate_hash": "1A48A9BA38F9A39EF9E2202E81721A9810B37274"
+          }
+        },
+        {
+          "client_id": "173597830497-5hul88a9pa9hos6r6nrcnujsbrm8e9p5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRlFwbVn5TvX9KMXAgSO9wvjhPWPso_hY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "173597830497-5hul88a9pa9hos6r6nrcnujsbrm8e9p5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

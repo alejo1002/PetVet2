@@ -1,0 +1,39 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+
+    <dimen name="icon_top_margin">24dp</dimen>
+    <dimen name="icon_bottom_margin">24dp</dimen>
+    <dimen name="title_bottom_margin">16dp</dimen>
+    <dimen name="field_width_standard">160dp</dimen>
+
+
+    <!--CreateAccount-->
+    <dimen name="dialog_body">24dp</dimen>
+    <dimen name="padding_between">20dp</dimen>
+    <dimen name="edit_text_padding">16dp</dimen>
+    <dimen name="normal_padding">8dp</dimen>
+    <dimen name="button_padding">24dp</dimen>
+
+
+    <!-- Margen superior de la lista en el layout padre y la altura de la imagen en cada item -->
+    <dimen name="margen_superior_lista">8dp</dimen>
+    <dimen name="altura_imagen_item">192dp</dimen>
+
+    <dimen name="list_item_height">88dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+    <dimen name="marqin_restore_pass">40dp</dimen>
+
+    <!--Para los TextView de los mensajes de Notificación-->
+    <dimen name="title_notification">26sp</dimen>
+    <dimen name="body_notification">20sp</dimen>
+
+</resources>

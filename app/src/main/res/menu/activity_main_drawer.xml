@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/drw_go_to_map"
+            android:icon="@drawable/ic_map"
+            android:title="@string/see_veterinaries" />
+        <item
+            android:id="@+id/drw_notification"
+            android:icon="@drawable/ic_notification"
+            android:title="@string/notifications" />
+        <item
+            android:id="@+id/drw_configuration"
+            android:icon="@drawable/ic_configuration"
+            android:title="@string/configuration" />
+    </group>
+
+    <group android:checkableBehavior="single">
+    <menu>
+        <item
+            android:id="@+id/drw_share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/share" />
+        <item
+            android:id="@+id/drw_shout_down"
+            android:icon="@drawable/ic_shut_down"
+            android:title="@string/shot_down" />
+    </menu>
+    </group>
+
+</menu>

@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">PetVet</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Ingresar</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+
+    <string name="go_to_map">Ir al mapa</string>
+
+
+    <!--loginUser strings-->
+    <string name="btn_forgot_password">¿Olvidó su contraseña?</string>
+    <string name="btn_link_to_register">Crear una nueva cuenta</string>
+
+
+    <!--Create Account-->
+    <string name="nombre_input">Email</string>
+    <string name="contrasena_input">Constraseña</string>
+    <string name="recordar_check">Recordarme</string>
+    <string name="entrar_boton">Crear Cuenta</string>
+    <string name="info_text">Crear una cuenta en PetVet</string>
+
+
+    <!--forgot password-->
+    <string name="lbl_forgot_password">¿Perdió su Contraseña?</string>
+    <string name="forgot_password_msg">Ingrese su dirección de correo y le enviaremos las instrucciones para restablecer su cuenta.</string>
+    <string name="btn_reset_password">Restablecer Contraseña</string>
+    <string name="btn_back">&lt;&lt;Volver Atrás</string>
+
+
+    <string name="prompt_user">Usuario</string>
+    <string name="loading">Loading…</string>
+    <string name="emailpassword_status_fmt">Email User: %s</string>
+    <string name="firebase_status_fmt">Firebase User: %s</string>
+
+
+    <string name="desc_firebase_lockup">Firebase logo and name</string>
+    <string name="emailpassword_title_text">Email and Password</string>
+    <string name="signed_out">Signed Out</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="create_account">Create Account</string>
+    <string name="sign_out">Sign Out</string>
+
+
+    <!--menu details-->
+    <string name="action_edit">Editar</string>
+    <string name="action_delete">Eliminar</string>
+
+    <!--Add Edit-->
+    <string name="title_activity_add_edit_pet">Añadir/Editar Mascota</string>
+    <string name="name_hint">Nombre</string>
+    <string name="age_hint">Edad</string>
+    <string name="age_und_hint">Unidad de Medida</string>
+    <string name="specie_hint">Especie</string>
+    <string name="phrase_hint">Frase</string>
+    <string name="field_error">Ingresa un valor</string>
+
+    <!--ad/edit radioButtons-->
+    <string name="male">Macho</string>
+    <string name="female">Hembra</string>
+
+    <!--ad/edit age items-->
+    <string-array name="ages_mag">
+        <item>Semanas</item>
+        <item>Meses</item>
+        <item>Años</item>
+    </string-array>
+
+    <!--ad/edit specie items-->
+    <string-array name="species">
+        <item>Perro</item>
+        <item>Gato</item>
+        <item>Conejo</item>
+        <item>Ave</item>
+        <item>Tortuga</item>
+    </string-array>
+
+    <!--Navigation Drawable-->
+    <string name="see_veterinaries">Ver veterinarias</string>
+    <string name="notifications">Notificaciones</string>
+    <string name="configuration">Configuración</string>
+    <string name="share">Compartir</string>
+    <string name="shot_down">Salir</string>
+    <string name="drw_email">Salir</string>
+
+    <!--Share PetVet-->
+    <string name="share_petvet">PetVet es una aplicación para encontrar la mejor veterinaria para tu mascota.</string>
+
+    <!--QR Code-->
+    <string name="associate_pet">Asociar Mascota</string>
+    <string name="qr_title_activity">Código de Asociación de Mascota</string>
+    <string name="qr_body">Acerque su móvil al del veterinario para asociar a su mascota.</string>
+</resources>
