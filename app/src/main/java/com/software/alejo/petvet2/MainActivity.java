@@ -134,20 +134,16 @@ public class MainActivity extends AppCompatActivity
     public void fillVeterinariesMock() {
         Veterinary vetry1 = new Veterinary();
         Veterinary vetry2 = new Veterinary();
-        //ArrayList<Schedule> schedules;
-        //schedules = getScheduleList();
 
         vetry1.setName("El Palacio de las Mascotas");
         vetry1.setLatitude(6.254552);
         vetry1.setLongitude(-75.574509);
-        //vetry1.setSchedules(schedules);
         vetry1.setHorario("Lunes a Viernes 8 am a 7 pm Sábados 8:30 a 5:00 p.m.");
 
 
         vetry2.setName("Pet Shop");
         vetry2.setLatitude(6.255874);
         vetry2.setLongitude(-75.573769);
-        //vetry2.setSchedules(schedules);
         vetry2.setHorario("Lunes a Viernes 8 am a 9 pm Sábados y Domingos 8:30 a 5:00 p.m.");
 
         ArrayList<Veterinary> veteriesList = new ArrayList<>();
@@ -155,23 +151,6 @@ public class MainActivity extends AppCompatActivity
         veteriesList.add(vetry2);
 
         vets.setVeterinaries(veteriesList);
-    }
-
-    private ArrayList<Schedule> getScheduleList() {
-        ArrayList<Schedule> schedules = new ArrayList<>();
-        Schedule schedule = new Schedule();
-
-        schedule.setWeekDay(WeekDay.MONDAY);
-        schedule.setOpeningTime(Time.valueOf("09:00:00"));
-        schedule.setClosingTime(Time.valueOf("12:00:00"));
-        schedules.add(schedule);
-
-        schedule.setWeekDay(WeekDay.SATURDAY);
-        schedule.setOpeningTime(Time.valueOf("07:00:00"));
-        schedule.setClosingTime(Time.valueOf("11:00:00"));
-        schedules.add(schedule);
-
-        return schedules;
     }
 
     @Override
